@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.rainbow{
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows:  repeat(2, 50px);
+    font-family: 'Quicksand', sans-serif;  
+}
+.rainbow__item{
+    text-align: center;
+}
+.rainbow__item_circle{
+    box-sizing: border-box;
+    border-radius: 50%;;
+    margin: 10px;
+}
