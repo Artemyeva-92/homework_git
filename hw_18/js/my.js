@@ -6,8 +6,8 @@ function getRandomIntInclusive(min, max) {
 
   let block = document.querySelector('.block');
   const movingBlock = setInterval(() => {
-    block.style.left = getRandomIntInclusive(0, 1180)  + `px`;
-    block.style.top = getRandomIntInclusive(0, 477) + `px`;
+    block.style.left = getRandomIntInclusive(0, (document.body.clientWidth - block.offsetWidth))  + `px`;
+    block.style.top = getRandomIntInclusive(0, (document.body.clientHeight - block.offsetHeight)) + `px`;
   }, 1000);
 
   const colorBlock = setInterval(() => {
