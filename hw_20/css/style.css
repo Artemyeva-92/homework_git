@@ -2,3 +2,13 @@
     height: 100px;
     width: 100px;
 }
+.rectangle{
+    height: 100px;
+    width: 200px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
