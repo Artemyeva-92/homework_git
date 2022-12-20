@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw_23</title>
+    <style>
+        table {
+            border-collapse: collapse;   
+        }
+        tr th {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        td{
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        form{
+            width: fit-content;
+            margin-bottom: 20px;
+        }
+        label{
+            display: block;
+            margin: 10px 0;
+        }
+        #comicsCheckboxFavourite{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <form id="formNewHero" >
+        <fieldset>
+            <label>
+                Name: <input type="text" id="comicsInputName">
+            </label>
+            <label>
+                Comics: <select id="comicsSelectType"></select>
+            </label>
+            <label>
+                Favourite: <input type="checkbox" id="comicsCheckboxFavourite">
+            </label>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+    <div id="tableBlock"></div>
+    <script src="./js/my.js"></script>
+</body>
+</html>
